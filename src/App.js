@@ -1,12 +1,12 @@
-import React,{Fragment} from 'react';
-import Jokes from './components/Jokes';
-
+import React, { Fragment } from "react";
+import Jokes from "./components/Jokes";
+import './App.css';
 
 function App() {
   return (
-   <Fragment>
-     <Jokes/>
-   </Fragment>
+    <div className="App">
+      <Jokes />
+    </div>
   );
 }
 
